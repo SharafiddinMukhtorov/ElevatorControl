@@ -50,6 +50,44 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "ActualLab.Fusion": {
+              "target": "Package",
+              "version": "[9.6.2, )"
+            },
+            "ActualLab.Fusion.Blazor": {
+              "target": "Package",
+              "version": "[9.6.2, )"
+            },
+            "ActualLab.Fusion.EntityFramework": {
+              "target": "Package",
+              "version": "[9.6.2, )"
+            },
+            "ActualLab.Fusion.Ext.Contracts": {
+              "target": "Package",
+              "version": "[9.6.2, )"
+            },
+            "ActualLab.Generators": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.6.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

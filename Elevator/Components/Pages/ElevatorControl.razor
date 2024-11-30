@@ -1,0 +1,63 @@
+﻿@page "/elevator"
+@rendermode InteractiveServer
+@using ActualLab.Fusion
+@using ActualLab.Fusion.Blazor
+@using Elevator.Models
+@inherits ComputedStateComponent<ElevatorState>
+
+<h3>Lift boshqaruvi</h3>
+
+@if (ElevatorState != null)
+{
+    <p>Joriy qavat: @ElevatorState.CurrentFloor</p>
+    <p>Yo‘nalish: @ElevatorState.Direction</p>
+    <p>Holati: @(ElevatorState.IsBusy ? "Band" : "Bo‘sh")</p>
+}
+else
+{
+    <p>Holat yuklanmoqda...</p>
+}
+
+<h4>Liftni yuborish</h4>
+<input type="number" @bind="TargetFloor" min="1" max="10" />
+<button @onclick="SendElevator">Liftni yuborish</button>
+
+@code {
+    [Inject] private ElevatorService ElevatorService { get; set; } = null!;
+
+    private ElevatorState? ElevatorState { get; set; }
+    private int TargetFloor { get; set; }
+
+    // Har soniyada lift holatini yangilash
+    [ComputeMethod(AutoInvalidationDelay = 1)]
+    public async Task<ElevatorState?> ComputeElevatorStateAsync()
+    {
+        return await ElevatorService.GetCurrentElevatorStateAsync();
+    }
+
+    // Komponent inicializatsiyasi
+    protected override async Task OnInitializedAsync()
+    {
+        await RefreshState();
+    }
+
+    // Lift holatini yangilash
+    protected override async Task<ElevatorState?> ComputeState(CancellationToken cancellationToken)
+    {
+        return await ElevatorService.GetCurrentElevatorStateAsync();
+    }
+
+    // Liftni yuborish funksiyasi
+    private async Task SendElevator()
+    {
+        await ElevatorService.RequestElevatorAsync(TargetFloor);
+        await RefreshState(); // Liftni yuborishdan so'ng holatni yangilash
+    }
+
+    // Holatni yangilash
+    private async Task RefreshState()
+    {
+        ElevatorState = await ElevatorService.GetCurrentElevatorStateAsync();
+        await InvokeAsync(StateHasChanged);
+    }
+}
