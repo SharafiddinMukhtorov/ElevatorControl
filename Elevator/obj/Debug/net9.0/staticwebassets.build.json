@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IlBfjaed4ManUYtnUf8jjNIVYPa+QQVrEP4iPRpGgeU=",
+  "Hash": "NNSH2eYiLa5SuSf3DK9GvjOf/lxLnSG80deft8FDTFg=",
   "Source": "Elevator",
   "BasePath": "_content/Elevator",
   "Mode": "Default",
@@ -2010,6 +2010,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Identity": "C:\\Tasks\\ElevatorControl\\Elevator\\wwwroot\\lib\\bootstrap\\elevator.png",
+      "SourceId": "Elevator",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Tasks\\ElevatorControl\\Elevator\\wwwroot\\",
+      "BasePath": "_content/Elevator",
+      "RelativePath": "lib/bootstrap/elevator#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "psvrt1798w",
+      "Integrity": "uWpnZfYjnlZP4CcysG9DJ3HB/Tso7exB4+/q4fxwLwU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\elevator.png"
     }
   ],
   "Endpoints": [
@@ -16098,6 +16119,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-mLLuMjFYOIYX8xSc8UD/TLCKJOjlhcscgrxC5va1aAs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/elevator.png",
+      "AssetFile": "C:\\Tasks\\ElevatorControl\\Elevator\\wwwroot\\lib\\bootstrap\\elevator.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uWpnZfYjnlZP4CcysG9DJ3HB/Tso7exB4+/q4fxwLwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 11:22:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uWpnZfYjnlZP4CcysG9DJ3HB/Tso7exB4+/q4fxwLwU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/elevator.psvrt1798w.png",
+      "AssetFile": "C:\\Tasks\\ElevatorControl\\Elevator\\wwwroot\\lib\\bootstrap\\elevator.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uWpnZfYjnlZP4CcysG9DJ3HB/Tso7exB4+/q4fxwLwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 11:22:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "psvrt1798w"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/elevator.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uWpnZfYjnlZP4CcysG9DJ3HB/Tso7exB4+/q4fxwLwU="
         }
       ]
     }

@@ -18,8 +18,7 @@ public class ElevatorService : IComputeService
         var elevatorState = _context.ElevatorStates.FirstOrDefaultAsync().Result;
         return elevatorState;
     }
-
-
+        
     [ComputeMethod]
     public virtual async Task RequestElevatorAsync(int targetFloor)
     {
@@ -37,8 +36,18 @@ public class ElevatorService : IComputeService
             elevatorState.Direction = elevatorState.CurrentFloor > targetFloor ? "Pastga" : "Tepaga";
             elevatorState.CurrentFloor = targetFloor;
             elevatorState.IsBusy = true;
+
             _context.ElevatorStates.Update(elevatorState);
             await _context.SaveChangesAsync();
         }
+
+        elevatorState.IsBusy = false;
+
+        _context.ElevatorStates.Update(elevatorState);
+        await _context.SaveChangesAsync();
+    }
+    public async Task<List<ElevatorRequest>> GetElevatorRequestsAsync()
+    {
+        return await _context.ElevatorRequests.OrderByDescending(r => r.RequestTime).ToListAsync();
     }
 }

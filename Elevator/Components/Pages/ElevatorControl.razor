@@ -5,56 +5,98 @@
 @using Elevator.Models
 @inherits ComputedStateComponent<ElevatorState>
 
-<h3>Lift boshqaruvi</h3>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-@if (ElevatorState != null)
-{
-    <p>Joriy qavat: @ElevatorState.CurrentFloor</p>
-    <p>Yo‘nalish: @ElevatorState.Direction</p>
-    <p>Holati: @(ElevatorState.IsBusy ? "Band" : "Bo‘sh")</p>
-}
-else
-{
-    <p>Holat yuklanmoqda...</p>
-}
+<div class="container mt-4">
+    <h3 class="text-center">Lift Boshqaruvi</h3>
 
-<h4>Liftni yuborish</h4>
-<input type="number" @bind="TargetFloor" min="1" max="10" />
-<button @onclick="SendElevator">Liftni yuborish</button>
+    @if (ElevatorState != null)
+    {
+        <div class="alert alert-info">
+            <p><strong>Joriy qavat:</strong> @ElevatorState.CurrentFloor</p>
+            <p><strong>Yo‘nalish:</strong> @ElevatorState.Direction</p>
+            <p><strong>Holati:</strong> @(ElevatorState.IsBusy ? "Band" : "Bo‘sh")</p>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            <p>Holat yuklanmoqda...</p>
+        </div>
+    }
+
+    <h4 class="mt-4">Liftni yuborish</h4>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="input-group" style="width: 200px;">
+            <input type="number" class="form-control" @bind="TargetFloor" min="1" max="10" placeholder="Qavatni kiriting" />
+            <button class="btn btn-primary" @onclick="SendElevator">Liftni yuborish</button>
+        </div>
+    </div>
+
+    @if (targetFloorIsInvalid)
+    {
+        <div class="alert alert-danger mt-3" style="color: red;">
+            <strong>Xatolik!</strong> Qavat 1 va 10 oralig‘ida bo‘lishi shart.
+        </div>
+    }
+
+    @if (isElevatorRequested)
+    {
+        <div class="alert alert-success mt-3">
+            Lift muvaffaqiyatli yuborildi!
+        </div>
+    }
+</div>
 
 @code {
     [Inject] private ElevatorService ElevatorService { get; set; } = null!;
 
     private ElevatorState? ElevatorState { get; set; }
     private int TargetFloor { get; set; }
+    private bool targetFloorIsInvalid = false;
+    private bool isElevatorRequested = false;
 
-    // Har soniyada lift holatini yangilash
     [ComputeMethod(AutoInvalidationDelay = 1)]
     public async Task<ElevatorState?> ComputeElevatorStateAsync()
     {
+        if (ElevatorState != null)
+        {
+            return ElevatorState;
+        }
+
         return await ElevatorService.GetCurrentElevatorStateAsync();
     }
 
-    // Komponent inicializatsiyasi
-    protected override async Task OnInitializedAsync()
-    {
-        await RefreshState();
-    }
-
-    // Lift holatini yangilash
     protected override async Task<ElevatorState?> ComputeState(CancellationToken cancellationToken)
     {
-        return await ElevatorService.GetCurrentElevatorStateAsync();
+        ElevatorState = await ElevatorService.GetCurrentElevatorStateAsync();
+        return ElevatorState;
     }
 
-    // Liftni yuborish funksiyasi
     private async Task SendElevator()
     {
+        if (TargetFloor < 1 || TargetFloor > 10)
+        {
+            targetFloorIsInvalid = true;
+            StateHasChanged();
+            return;
+        }
+
+        targetFloorIsInvalid = false;
+        isElevatorRequested = false;
+
         await ElevatorService.RequestElevatorAsync(TargetFloor);
-        await RefreshState(); // Liftni yuborishdan so'ng holatni yangilash
+
+        ElevatorState = await ElevatorService.GetCurrentElevatorStateAsync();
+        isElevatorRequested = true;
+
+        await InvokeAsync(StateHasChanged);
+
+        await Task.Delay(2000);
+        isElevatorRequested = false;
+        await InvokeAsync(StateHasChanged);
     }
 
-    // Holatni yangilash
     private async Task RefreshState()
     {
         ElevatorState = await ElevatorService.GetCurrentElevatorStateAsync();

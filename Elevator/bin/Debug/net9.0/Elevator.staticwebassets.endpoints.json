@@ -13791,6 +13791,88 @@
           "Value": "lib/bootstrap/dist/js/bootstrap.js.gz"
         }
       ]
+    },
+    {
+      "Route": "lib/bootstrap/elevator.png",
+      "AssetFile": "lib/bootstrap/elevator.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uWpnZfYjnlZP4CcysG9DJ3HB/Tso7exB4+/q4fxwLwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 11:22:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uWpnZfYjnlZP4CcysG9DJ3HB/Tso7exB4+/q4fxwLwU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/elevator.psvrt1798w.png",
+      "AssetFile": "lib/bootstrap/elevator.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uWpnZfYjnlZP4CcysG9DJ3HB/Tso7exB4+/q4fxwLwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 11:22:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "psvrt1798w"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uWpnZfYjnlZP4CcysG9DJ3HB/Tso7exB4+/q4fxwLwU="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/elevator.png"
+        }
+      ]
     }
   ]
 }

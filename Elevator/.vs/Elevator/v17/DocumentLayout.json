@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Tasks\\ElevatorControl\\Elevator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\components\\pages\\requestshistory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:components\\pages\\requestshistory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\models\\elevatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:models\\elevatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\models\\elevatorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:models\\elevatorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\services\\elevatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:services\\elevatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\components\\pages\\elevatorcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:components\\pages\\elevatorcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\infrastructure\\elevatorcontroldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +43,8 @@
       "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\models\\elevatorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:models\\elevatorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks\\ElevatorControl\\Elevator\\Infrastructure\\Migrations\\20241130230249_Initial_Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241130230249_Initial_Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\components\\pages\\elevatorcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:components\\pages\\elevatorcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\models\\elevatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:models\\elevatorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|c:\\tasks\\elevatorcontrol\\elevator\\infrastructure\\migrations\\20241130230249_initial_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E20C7279-469E-4F1C-8647-855776DB93B0}|Elevator.csproj|solutionrelative:infrastructure\\migrations\\20241130230249_initial_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,93 +74,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20241130230249_Initial_Create.cs",
-              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Infrastructure\\Migrations\\20241130230249_Initial_Create.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241130230249_Initial_Create.cs",
-              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Infrastructure\\Migrations\\20241130230249_Initial_Create.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20241130230249_Initial_Create.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T23:02:49.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T22:59:25.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-30T22:57:26.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ElevatorControlDbContext.cs",
-              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Infrastructure\\ElevatorControlDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ElevatorControlDbContext.cs",
-              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Infrastructure\\ElevatorControlDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\ElevatorControlDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T22:56:48.126Z",
+              "Title": "RequestsHistory.razor",
+              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Pages\\RequestsHistory.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\RequestsHistory.razor",
+              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Pages\\RequestsHistory.razor",
+              "RelativeToolTip": "Components\\Pages\\RequestsHistory.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T10:42:27.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T22:55:42.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ElevatorService.cs",
-              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Services\\ElevatorService.cs",
-              "RelativeDocumentMoniker": "Services\\ElevatorService.cs",
-              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Services\\ElevatorService.cs*",
-              "RelativeToolTip": "Services\\ElevatorService.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T22:53:08.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ElevatorControl.razor",
-              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Pages\\ElevatorControl.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\ElevatorControl.razor",
-              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Pages\\ElevatorControl.razor",
-              "RelativeToolTip": "Components\\Pages\\ElevatorControl.razor",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T22:52:38.024Z",
+              "WhenOpened": "2024-12-01T10:40:35.342Z",
               "EditorCaption": ""
             },
             {
@@ -170,13 +113,101 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241130230249_Initial_Create.cs",
+              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Infrastructure\\Migrations\\20241130230249_Initial_Create.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241130230249_Initial_Create.cs",
+              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Infrastructure\\Migrations\\20241130230249_Initial_Create.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241130230249_Initial_Create.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:02:49.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Layout\\NavMenu.razor*",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T22:59:25.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-30T22:57:26.969Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ElevatorControlDbContext.cs",
+              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Infrastructure\\ElevatorControlDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ElevatorControlDbContext.cs",
+              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Infrastructure\\ElevatorControlDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\ElevatorControlDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:56:48.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:55:42.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ElevatorService.cs",
+              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Services\\ElevatorService.cs",
+              "RelativeDocumentMoniker": "Services\\ElevatorService.cs",
+              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Services\\ElevatorService.cs",
+              "RelativeToolTip": "Services\\ElevatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:53:08.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ElevatorControl.razor",
+              "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Pages\\ElevatorControl.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\ElevatorControl.razor",
+              "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Components\\Pages\\ElevatorControl.razor",
+              "RelativeToolTip": "Components\\Pages\\ElevatorControl.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T22:52:38.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ElevatorRequest.cs",
               "DocumentMoniker": "C:\\Tasks\\ElevatorControl\\Elevator\\Models\\ElevatorRequest.cs",
               "RelativeDocumentMoniker": "Models\\ElevatorRequest.cs",
               "ToolTip": "C:\\Tasks\\ElevatorControl\\Elevator\\Models\\ElevatorRequest.cs",
               "RelativeToolTip": "Models\\ElevatorRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T22:51:40.293Z",
               "EditorCaption": ""
